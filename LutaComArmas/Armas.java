@@ -13,10 +13,13 @@ public enum Armas {
         this.dano = dano;
     }
 
-    public String getDano(){
-        String res;
-        res = "O dano da arma é " + dano;
-        return res;
+    public String getNome(){
+        return name();
     }
+
+    public int getDano(){
+       return dano;
+    }
+
 
 }

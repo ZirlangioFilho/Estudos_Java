@@ -16,7 +16,11 @@ public class Guerreiro{
     public String getArma(){
         return "Sua arma é " + arma;
     }
-   
+
+    public int golpe(){
+        return arma.getDano();
+    }
+
 
 
 }

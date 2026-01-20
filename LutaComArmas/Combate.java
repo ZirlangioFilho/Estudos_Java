@@ -12,4 +12,8 @@ public class Combate {
     public String mostroVida(){
         return "o monstro tem " + monstro.getVida();
     }
+
+    public String luta(int golpe){
+        return "Golpe tirou " + golpe + " o monstro agora tem " + (monstro.getVida() - golpe) + " de vida";
+    }
 }

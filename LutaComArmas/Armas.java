@@ -13,10 +13,6 @@ public enum Armas {
         this.dano = dano;
     }
 
-    public String getNome(){
-        return name();
-    }
-
     public int getDano(){
        return dano;
     }

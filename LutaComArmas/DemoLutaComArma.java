@@ -20,5 +20,9 @@ public class DemoLutaComArma {
         System.out.println("O monstro " + regenerator.getNome() + " tem vida de " + regenerator.getVida());
         System.out.println(regenerator.danoRecebido(zeta.golpe()));
         System.out.println("=======================================");
+
+        Combate combate = new Combate(zeta, regenerator);
+        System.out.println(combate.mostroVida());
+        System.out.println(combate.luta(zeta.golpe()));
     }
 }
